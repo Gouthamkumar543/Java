@@ -1,0 +1,12 @@
+package mypackage;
+
+public class CreateArrayUsingForEach {
+	public static void main(String[] args) {
+		int marks[] = {19,287,928,989,909};
+		
+		for(int i:marks){
+			System.out.println(marks[i])
+		}
+	}
+
+}

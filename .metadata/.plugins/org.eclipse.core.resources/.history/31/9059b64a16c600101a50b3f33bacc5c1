@@ -1,0 +1,5 @@
+package mypackage.oops;
+
+public class StaticAndInstanceTest {
+
+}

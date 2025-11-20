@@ -1,0 +1,15 @@
+package mypackage.oops;
+
+public class StaticAndInstanceTest {
+	int a = 10;
+	static int b = 20;
+	void function1() {
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+	}
+	
+	public static void main(String []args) {
+		StaticAndInstanceTest obj = new StaticAndInstanceTest();
+		obj.function1();
+	}
+}
