@@ -4,7 +4,6 @@ import java.io.*;
 public class WriteReadDemo {
 	public static void main(String[] args) throws IOException {
 		FileWriter fw = new FileWriter("C:\\Users\\gouth\\Desktop\\Goutham\\Java\\Streams\\File.txt");
-		FileReader fr = new FileReader("C:\\Users\\gouth\\Desktop\\Goutham\\Java\\Streams\\File.txt");
 		
 		fw.write(78);	//returns ascii values
 		fw.write("\n");
@@ -17,10 +16,12 @@ public class WriteReadDemo {
 		
 		fw.flush();
 		
+		FileReader fr = new FileReader("C:\\Users\\gouth\\Desktop\\Goutham\\Java\\Streams\\File.txt");
 		int i = fr.read();
+		
 		while(i != -1) {
 			System.out.print((char)i);
-			i=fr.read();
+			i = fr.read();
 		}
 		
 		fw.close();
