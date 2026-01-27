@@ -46,9 +46,9 @@ public class Pract1 extends JFrame implements ListSelectionListener {
 
     public static void main(String args[]) {
         Pract1 p1 = new Pract1();
-        p1.setSize(500, 500);
+        p1.setSize(300, 300);
         p1.setVisible(true);
-        p1.setTitle("Product");
+        p1.setTitle("Goutham");
         p1.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }
