@@ -19,11 +19,11 @@ public class Pract2 {
 
         // Sample employee data
         Object[][] data = {
-                {"E101", "Alice Johnson", "Software Engineer", "Development", 75000},
-                {"E102", "Bob Smith", "QA Analyst", "Testing", 60000},
-                {"E103", "Charlie Brown", "Project Manager", "Management", 90000},
-                {"E104", "Diana Prince", "UI/UX Designer", "Design", 65000},
-                {"E105", "Ethan Hunt", "DevOps Engineer", "Operations", 80000}
+                {"E101", "Goutham", "Software Engineer", "Development", 75000},
+                {"E102", "Sravan", "QA Analyst", "Testing", 60000},
+                {"E103", "Bhanu", "Project Manager", "Management", 90000},
+                {"E104", "Vivek", "UI/UX Designer", "Design", 65000},
+                {"E105", "Hari", "DevOps Engineer", "Operations", 80000}
         };
 
         // Table model (editable by default)
