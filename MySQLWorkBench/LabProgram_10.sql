@@ -1,0 +1,11 @@
+USE logindb;
+CREATE TABLE users (
+    FNAME    VARCHAR(15),
+    UMAIL    VARCHAR(50),
+    LNAME    VARCHAR(20),
+    USERID   VARCHAR(20),
+    PASSWORD VARCHAR(20),
+    PRIMARY KEY (UMAIL)
+);
+
+SELECT * FROM users;
