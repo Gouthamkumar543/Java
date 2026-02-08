@@ -1,7 +1,7 @@
 package ejb;
 
 import java.io.*;
-import jakarta.servlet.*;   // ✅ use jakarta.* for Tomcat 11
+import jakarta.servlet.*;
 import jakarta.servlet.annotation.*;
 import jakarta.servlet.http.*;
 

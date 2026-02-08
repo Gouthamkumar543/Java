@@ -2,9 +2,6 @@ package com.ou.ejb;
 
 import java.util.ArrayList;
 import java.util.List;
-
-// ❌ Removed @Stateful and @Remote annotations (Tomcat doesn't support EJBs)
-// ✅ Plain Java class stored in session to mimic stateful behavior
 public class ListElementsBean {
     private List<Integer> values = new ArrayList<>();
 
