@@ -32,7 +32,7 @@ public class MyServer extends HttpServlet {
 
         out.println("<html>");
         out.println("<head><title>Mark List</title></head>");
-        out.println("<body bgcolor='cyan'>");
+        out.println("<body >");
         out.println("<center>");
         out.println("<h1>" + message + "</h1>");
 

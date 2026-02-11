@@ -14,7 +14,7 @@
     <%-- Using response object --%>
     <%
         PrintWriter pw = response.getWriter();
-        pw.println("Response writer example.");
+        pw.println("Goutham");
     %>
 
     <br><br>

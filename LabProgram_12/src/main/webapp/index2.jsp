@@ -7,6 +7,7 @@
     <title>Stateful Bean Simulation</title>
 </head>
 <body>
+<h1>Goutham</h1>
 <h1>Stateful Bean Example (Tomcat)</h1>
 
 <%

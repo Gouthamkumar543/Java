@@ -8,16 +8,11 @@ import java.awt.*;
 
 public class Pract2 {
     public static void main(String[] args) {
-        // Create frame
         JFrame frame = new JFrame("Editable Employee Table - Software Company");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700, 400);
         frame.setLayout(new BorderLayout());
-
-        // Column names
         String[] columnNames = {"Employee ID", "Name", "Role", "Department", "Salary"};
-
-        // Sample employee data
         Object[][] data = {
                 {"E101", "Goutham", "Software Engineer", "Development", 75000},
                 {"E102", "Sravan", "QA Analyst", "Testing", 60000},
@@ -25,36 +20,21 @@ public class Pract2 {
                 {"E104", "Vivek", "UI/UX Designer", "Design", 65000},
                 {"E105", "Hari", "DevOps Engineer", "Operations", 80000}
         };
-
-        // Table model (editable by default)
         DefaultTableModel model = new DefaultTableModel(data, columnNames) {
             public boolean isCellEditable(int row, int column) {
-                // Make all cells editable
                 return true;
             }
         };
-
-        // JTable
         JTable table = new JTable(model);
         table.setFillsViewportHeight(true);
-
-        // Add table to scroll pane
         JScrollPane scrollPane = new JScrollPane(table);
-
-        // Add components to frame
         frame.add(scrollPane, BorderLayout.CENTER);
-
-        // Add a button panel for demonstration
         JPanel buttonPanel = new JPanel();
         JButton addRowButton = new JButton("Add Employee");
         JButton removeRowButton = new JButton("Remove Selected");
-
-        // Add new row
         addRowButton.addActionListener(e -> {
             model.addRow(new Object[]{"", "", "", "", ""});
         });
-
-        // Remove selected row
         removeRowButton.addActionListener(e -> {
             int selectedRow = table.getSelectedRow();
             if (selectedRow != -1) {
@@ -66,10 +46,7 @@ public class Pract2 {
 
         buttonPanel.add(addRowButton);
         buttonPanel.add(removeRowButton);
-
         frame.add(buttonPanel, BorderLayout.SOUTH);
-
-        // Show frame
         frame.setVisible(true);
     }
 }

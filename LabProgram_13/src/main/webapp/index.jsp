@@ -5,6 +5,7 @@
     <title>Home</title>
 </head>
 <body>
+	<h1>Goutham</h1>
     <h2>Room Reservation Details</h2>
     <form action="MyServlet" method="GET">
         Name: <input type="text" name="t1"/><br/><br/>

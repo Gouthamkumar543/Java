@@ -5,6 +5,7 @@
     <title>Student Registration</title>
 </head>
 <body>
+	<h2>Goutham</h2>
     <h2>Register Student</h2>
     <form action="StudentServlet" method="post">
         Name: <input type="text" name="name"/><br/><br/>

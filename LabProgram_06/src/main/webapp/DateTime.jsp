@@ -8,7 +8,6 @@
 <title>Date and Time</title>
 </head>
 <body>
-    <h3>Using Expression tag to display the result of the expression</h3>
     <p>The Current date and time = <%= new java.util.Date() %></p>
 </body>
 </html>
