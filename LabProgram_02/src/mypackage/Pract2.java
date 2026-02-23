@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class Pract2 {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Editable Employee Table - Software Company");
+        JFrame frame = new JFrame("Goutham");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700, 400);
         frame.setLayout(new BorderLayout());

@@ -7,7 +7,7 @@ public class MyClient {
     public static void main(String args[]) {
         try {
             Adder st = (Adder) Naming.lookup("rmi://localhost:8000/add");
-            System.out.println("Sathwika");
+            System.out.println("Goutham");
             System.out.println("Successfully Connected! using RMI");
             System.out.println("Result: " + st.add(34, 4));
         } catch (Exception e) {
